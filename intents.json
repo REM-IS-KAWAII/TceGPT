@@ -1,0 +1,187 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["tell me about tce", "describe about the college"],
+      "responses": [
+        "Founded in 1957 by philanthropist and industrialist Late Shri.Karumuttu Thiagarajan Chettiar, Thiagarajar College of Engineering (TCE) is a Government Aided Institution and affiliated to Anna University and situated in Madurai, the Temple City .The college is funded by Central and State Governments and Management. The courses offered in TCE are approved by the All India Council for Technical Education (AICTE), New Delhi and Council of Architecture (COA), New Delhi. TCE was granted Autonomy in the year 1987 and the programmes have been accredited by the National Board of Accreditation (NBA). TCE offers 9 Undergraduate programmes, 10 Postgraduate programmes and Doctoral programmes in Engineering, Architecture and Science."
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": ["what is the vision of college", "what path does tce chooses"],
+      "responses": [
+        "To provide world class quality technical education with strong ethical values."
+      ]
+    },
+    {
+      "tag": "UG programmes",
+      "patterns": ["what are the undergraguate programs available in TCE?", "UG programes in Thiagarajar college of engineering"],
+      "responses": [
+        "Civil engineering, Mechanical Engineering, Electronics and Communication Engineering, Electronics and Electrical Engineering, Computer Science Engineering, Mechatronics, Computer Science and Bussiness System, Data Science and Architecture ."
+      ]
+    },
+    {
+      "tag": "requirements",
+      "patterns": ["What is the requirements for joining TCE?","procedure to goin TCE?"],
+      "responses": [
+        "Students willing to pursue this course require a prerequisite of minimum marks in higher secondary education or Vocational education courses as per the Tamilnadu Government norms. Students who have completed diploma can join in direct second year through Lateral Entry scheme as per Tamilnadu Government norms. The admission to the B.E programme is conducted through TNEA and Management quota.  The applications for Management quota will be issued online through TCE website after two days from the publication of class 12 results (HSC, ISC and CBSE streams)."
+      ]
+    },
+    {
+      "tag": "Arch",
+      "patterns": ["what is qualification for joining arch", "requirements for joining Bachelor of Architecture"],
+      "responses": [
+        "Bachelor of Architecture is a five-year professional degree programme dedicated to the study of art, planning, designing and construction of physical structures of various kinds. Students willing to pursue this course require a prerequisite of minimum marks specified by Tamilnadu state government in higher secondary education in any stream with Mathematics as compulsory subject and a passing score in NATA (National Aptitude Test in Architecture) as per Council of Architecture norms. The admission to the B. Arch programme is conducted through TNEA and Merit Management quota. The applications for Management quota will be issued online through TCE website after two days from the publication of class 12 results (HSC, ISC and CBSE streams) and NATA score."
+      ]
+    },
+    {
+      "tag": "PG description",
+      "patterns": ["what are the PG programmes offered in college", "How many PG programmes are available"],
+      "responses": [
+        "TCE offers Ten Postgraduate Programmes. Each programme comprises of several core, elective courses and project work. A faculty advisor will help the students in the choice of academic options for elective courses. Students may be permitted to do their project work in industries and other Central Government organizations."
+      ]
+    },
+    {
+      "tag": "brief description PG",
+      "patterns": ["Describe the PG courses offered", "explain about various courses of PG"],
+      "responses": [
+        "M.E./M.Tech. (2 years)//Masters of Engineering and Master of Technology are two-year professional degree programmes dedicated to the study of advanced engineering and technology concepts with a focus to bridge the gap between theoretical knowledge and professional practice. Based on the stream opted at the graduation level, the students can choose Masters of Engineering programme from 7 disciplines (M.E Structural Engineering, M.E Environmental Engineering, M.E Construction Engineering and Management, M.E Engineering Design, M.E Power System Engineering, M.E Communication Systems, M.E Computer Science and Engineering) and M.Tech. Defence Technology Programme offered at TCE. Students willing to pursue this programme require a prerequisite of Bachelor’s degree from recognized institutions and an eligible score in GATE / TANCET. Eligibility criteria for GATE / TANCET qualified candidates are available on Anna University website. The admission to the M.E programme is conducted through TANCA and Management quota. The application for the management quota is issued online through the TCE website from June-July every year.\\M. Arch (2 years)\\The Masters of Architecture (General) is a two-year professional degree programme, recognized by the Council of Architecture that aims to develop the skills and knowledge of the students in architectural design, environment and research. Students willing to pursue this course require a prerequisite of course completion with a minimum 50% marks in bachelor’s degree from recognized institutions and an eligible score in GATE/ TANCET. Eligibility criteria for GATE / TANCET qualified candidates are available in the Anna University website. The admission to the M. Arch programme is conducted through TANCA and Management quota. The application for the management quota will be issued online through TCE website in the months of June-July every year."
+       ]
+    },
+    {
+      "tag":"SIG of cse",
+      "patterns":["What are the SIG of cse","SIG's of cse"],
+      "responses":["There are 5 SIG's.\n They are \n1.Systems Enginnering and High Performance Computing\n2.Software and Data Engineering\n3.Networks and Security\n4.AI and Data Science\n5.Theoritical Compyter Science"]
+    },
+    {"tag":"CSE",
+    "patterns":["Tell me about CSE department","About cse","about CSE"],
+    "responses":["The FIST Supported Computer Science and Engineering Department has Knowledge Engineering as its theme area. The Department has Laboratories supported by Microsoft, INTEL, TCS and HP. The Department has the privilege of having completed many R&D projects from RCI, AICTE, UGC, DIT and DST.","he Department was a consortium partner of CDBR Smart and Secure Environment project sponsored by NTRO, New Delhi. The Department has collaboration with EMC Data Storage Systems, VMware, Yahoo India, Adobe and CTS. As a Prometric Center, six International Certification programs are offered. The department is responsible for design and development of College Management Information System which has received many National Level Recognitions.",". The Department has collaboration with EMC Data Storage Systems, VMware, Yahoo India, Adobe and CTS. As a Prometric Center, six International Certification programs are offered. The department is responsible for design and development of College Management Information System which has received many National Level Recognitions. The department has experienced faculty members with PhDs and Publication in National and International Journals."]
+    },
+
+    {"tag":"Vision of cse",
+    "patterns":["What is the vision of cse department?","What is the vision of CSE?","What is the vision of cse","Vision of cse","vision of CSE"],
+    "responses":["Excellence in Computer Science and Engineering education and research."]
+    },
+
+    {"tag":"Mission of cse",
+    "patterns":["What is the mission of cse?","What is the mission of CSE?","What is the mission of cse","Mission of cse","Mission of CSE"],
+    "responses":["1.Strive for academic excellence in Computer Science and Engineering through a creative teaching-learning process.\n2.Transform students into technically competent, socially responsible and ethical Computer Science professionals.\n3.Create centres of excellence in leading areas of Computer Science and Engineering.\n4.Incubate, apply and spread innovative ideas by collaborating with relevant industries and R&D labs through focused research groups.\n5.Attain these through continuous team work by a group of committed faculty, transforming the Computer Science and Engineering department as a leader in imparting Computer Science and Engineering education and research."]
+    },
+
+    {
+      "tag":"cse faculty",
+      "patterns":["How many faculties work in cse department?","Number of staffs working in CSE?","Total number of faculties in CSE?"],
+      "responses":["There are totally 22 faculties in CSE department","As of now , there aree 22 faculties working in CSE department","22 faculties"]
+    },
+    {
+      "tag": "Research Programmes",
+      "patterns": ["Are research programs are happening in college"],
+      "responses": [
+        "TCE  is internationally  renowned  for  the  quality and diversity  of  its  research;  various  programs  are nurtured  through  academic research and  sponsored   research funded by National organisations and industry."
+      ]
+    },
+    {
+      "tag": "student welfare",
+      "patterns": ["does college take good care of students", "student welfare programs in tce"],
+      "responses": [
+        "Student support system facilitates students to take up co-curricular and extra-curricular activities.",
+        "refer this link https://tce.edu/student"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library in TCE"],
+      "responses": [
+        "TCE library supports the institute's program of study and research. And it offers Institution repositories and provides access to a wide range of materials, both printed and electronics. The collection includes Books, E-Books, Magazines, Journals, CD/DVD, E-Journals, Video lectures etc…."
+      ]
+    },
+    {
+      "tag": "virtual tour",
+      "patterns": ["any youtube link to know about college", "does tce have any virtual tour?"],
+      "responses": [
+        "https://www.youtube.com/watch?v=dOSCtlnJ5FE&feature=youtu.be"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
